@@ -2,12 +2,11 @@
 *Files to look at*:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [XtraReport1.cs](./CS/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/XtraReport1.vb))
 <!-- default file list end -->
-# How to implement the best fit method for XRPivotGrid's column field values
+# How to enable the best fit for XRCrossTab's cells
 
 
-<p>This example demonstrates how the best fit method for XRPivotGrid's column field values can be implemented at runtime.</p>
+<p>This example demonstrates how to enable best fit for XRCrossTab control's cells at runtime.</p>
 
 <br/>
 
