@@ -136,9 +136,10 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(106, 355);
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(83, 355);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 23);
+            this.button1.Size = new System.Drawing.Size(208, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Best Fit (Category Name)";
             this.button1.UseVisualStyleBackColor = true;
@@ -147,11 +148,12 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(483, 355);
+            this.button2.AutoSize = true;
+            this.button2.Location = new System.Drawing.Point(459, 355);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 23);
+            this.button2.Size = new System.Drawing.Size(208, 23);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Preview (with Best Fit)";
+            this.button2.Text = "Preview (with Best Fit in Category Name)";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -182,6 +184,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

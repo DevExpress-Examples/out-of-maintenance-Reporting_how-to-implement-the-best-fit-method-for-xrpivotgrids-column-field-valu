@@ -24,8 +24,8 @@ namespace RepPGVertHeadersHeight {
 
                 XRCrossTab crossTab = report.FindControl("xrCrossTab1", false) as XRCrossTab;
 
-                //Apply Best Fit to "CategoryName" column
-                (crossTab.Cells["ctcCategoryName"] as XRCrossTabCell).ColumnAutoWidthMode = DevExpress.XtraReports.UI.AutoSizeMode.ShrinkAndGrow;
+                //Apply Best Fit to "CategoryName" column (Cell named "cellCategoryName" in XRCrossTab)
+                (crossTab.Cells["cellCategoryName"] as XRCrossTabCell).ColumnAutoWidthMode = DevExpress.XtraReports.UI.AutoSizeMode.ShrinkAndGrow;
                
 
                 tool.ShowPreviewDialog();
